@@ -1,5 +1,5 @@
 #include <stdio.h>
-    #include <stdlib.h>
+#include <stdlib.h>
 
     struct Canzone {
         char *name;
@@ -32,7 +32,7 @@
                     libreria[i].artist = malloc(20 * sizeof(char));
                     scanf("%49s", libreria[i].artist);
 
-                    printf("inserire durata \n");
+                    printf("inserire durata ");
                     scanf("%d", &libreria[i].duration);
 
                     i++;
